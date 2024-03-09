@@ -57,9 +57,30 @@ form input{
 }
 /* -----------------MAIN----------------- */
 
-/* .main-article{
-  padding: 3.1rem 2.2rem 0;
-} */
+.main-article{
+  padding: 0 2.2rem;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+
+  margin-block: 3.1rem;
+}
+.title h1 {
+  margin-bottom: .8rem;
+}
+
+.related-articles {
+  padding: 3.4rem 2.2rem;
+}
+
+.related-articles h1 {
+  margin-bottom: 3.2rem;
+}
+
+section{
+  display: grid;
+}
 
 /* -----------------FOOTER----------------- */
 footer{
