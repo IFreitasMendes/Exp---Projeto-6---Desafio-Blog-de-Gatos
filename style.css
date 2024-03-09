@@ -13,11 +13,18 @@
 
 }
 
+form, p {
+  font-size: 1.6rem;
+}
+h1{
+  font-size: 2.4rem;
+}
+
 /* -----------------HEADER----------------- */
 header{
   background: var(--cor1);
   display: flex;
-  gap: 2.5rem;
+  justify-content: space-between;
   align-items: center;
   padding: 1.6rem 2.8rem; 
 }
@@ -25,14 +32,28 @@ header{
   width: 40px;
   height: 40px;
 }
+
+form label {
+  position: absolute;
+  line-height: 4.0rem;
+  margin-block: auto;
+  margin-inline: 1.4rem; 
+}
 form input{
-  width: 24.0.rem;
+  width: 24.1rem;
+  height: 4.0rem;
+  border-radius: 0.4rem;
+  border: none;
 }
 .profile{
   width: 42px;
   border-radius: 20px;
 }
 /* -----------------MAIN----------------- */
+
+/* .main-article{
+  padding: 3.1rem 2.2rem 0;
+} */
 
 /* -----------------FOOTER----------------- */
 footer{
