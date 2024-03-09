@@ -77,11 +77,26 @@ form input{
 .related-articles h1 {
   margin-bottom: 3.2rem;
 }
-
 section{
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+figure {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
 }
 
+figure h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+}
+
+figcaption p{
+  font-size: 1.4rem;
+}
 /* -----------------FOOTER----------------- */
 footer{
   background: var(--cor2);
