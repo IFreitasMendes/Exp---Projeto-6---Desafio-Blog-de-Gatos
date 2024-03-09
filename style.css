@@ -100,4 +100,15 @@ figcaption p{
 /* -----------------FOOTER----------------- */
 footer{
   background: var(--cor2);
+
+  height: 6.4rem;
+  padding-block: 2.6rem;
+
+  text-align: center;
+}
+
+footer p{
+  color: white;
+  font-weight: 600;
+
 }
