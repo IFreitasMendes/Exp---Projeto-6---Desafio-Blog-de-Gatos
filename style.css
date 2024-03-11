@@ -87,19 +87,21 @@ form input{
 main{
   grid-column: 1/4;
 }
-
+.articles{
+  margin: 0 2.6rem 3.9rem;
+}
 .imgprincipal {
   border-radius: .5rem;
   width: 100%;
   max-width: 80.3rem;
 
  
-
 }
 
 .main-article{
   /* margin: 0 2.2rem; */
   max-width: 80.3rem;
+  margin-bottom: 3.4rem;
 }
 .title {
   display: flex;
@@ -164,6 +166,7 @@ footer p{
   .articles{
     display: flex;
     gap: 3.2rem;
+    margin: 4.2rem 11.2rem;
   }
   .title{
     flex-direction: row;
