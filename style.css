@@ -75,7 +75,7 @@ form input{
 
   background: var(--cor-pesquisar);
 
-  grid-column: 2/3;
+  /* grid-column: 2/3; */
 }
 .profile{
   width: 42px;
@@ -94,8 +94,6 @@ main{
   border-radius: .5rem;
   width: 100%;
   max-width: 80.3rem;
-
- 
 }
 
 .main-article{
@@ -178,4 +176,40 @@ footer p{
     gap: 1.2rem
   }
 
+}
+
+/* -----------------ANIMAÇÕES - CABEÇALHO E RODAPÉ----------------- */
+header{
+  --startY: -100%;
+  animation: move .7s;
+}
+footer{
+  --startY: 100%;
+  animation: move .7s;
+}
+@keyframes move{
+  from {
+    transform: translateY(var(--startY));
+  }
+}
+
+/* -----------------ANIMAÇÕES - RESSALTO DE ESCALA----------------- */
+figure, .curtir img, .logo, .profile{
+  transition-duration: 500ms;
+}
+figure:hover {
+  transform: scale(1.1);
+}
+.curtir img:hover, .logo:hover, .profile:hover{
+  transform: scale(1.1);
+}
+
+
+/* -----------------ANIMAÇÕES - DESTAQUE DE IMAGENS----------------- */
+.related-articles img, .profile{
+  transition-duration: 500ms;
+}
+
+.related-articles img:hover, .profile:hover{
+  filter: hue-rotate(7deg) contrast(101%) saturate(200%);
 }
